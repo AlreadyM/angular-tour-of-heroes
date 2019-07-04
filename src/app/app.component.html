@@ -1,5 +1,8 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <h1> {{title}}</h1>
-<app-heroes></app-heroes>
-<app-messages></app-messages>
+<!-- <app-heroes></app-heroes> -->
+<nav>
+    <a href="" [routerLink]="['/heroes']" routerLinkActive="router-link-active" >heroes</a>
+</nav>
 <router-outlet></router-outlet>
+<app-messages></app-messages>
